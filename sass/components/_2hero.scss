@@ -1,0 +1,15 @@
+.hero {
+  background-color: $hero-background;
+  &__btn {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: $third-text-color;
+    background-color: $logo-hover-color;
+  }
+}
+.h1 {
+  font-size: 44px;
+
+  color: $third-text-color;
+}

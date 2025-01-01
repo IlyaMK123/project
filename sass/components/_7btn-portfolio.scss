@@ -1,0 +1,15 @@
+.filters {
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__btn {
+    background-color: $primary-text-color;
+    &:hover {
+      color: $third-text-color;
+      background-color: $logo-hover-color;
+    }
+  }
+}

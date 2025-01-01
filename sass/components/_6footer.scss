@@ -1,0 +1,31 @@
+.footer {
+  background-color: $secondary-text-color;
+  &__logo {
+    font-size: 26px;
+    font-weight: 700;
+
+    color: $logo-hover-color;
+  }
+
+  &__span {
+    color: $third-text-color;
+  }
+
+  &__list {
+  }
+
+  &__item {
+    color: $primary-text-color;
+  }
+
+  &__link {
+  }
+}
+.address {
+  color: $third-text-color;
+}
+address a {
+  color: $primary-text-color;
+}
+address a:nth-child(1) {
+}
