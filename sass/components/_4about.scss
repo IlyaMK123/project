@@ -1,8 +1,14 @@
 .about {
+  margin-bottom: 94px;
+  text-align: center;
   &__list {
+    display: flex;
   }
 
   &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 
   &__img {

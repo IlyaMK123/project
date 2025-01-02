@@ -1,12 +1,21 @@
 .filters {
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
   &__list {
+    display: flex;
   }
 
   &__item {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
   }
 
   &__btn {
-    background-color: $primary-text-color;
+    padding: 6px 22px;
+    border-radius: 4px;
+    background-color: $workers-back;
     &:hover {
       color: $third-text-color;
       background-color: $logo-hover-color;

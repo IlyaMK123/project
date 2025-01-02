@@ -1,8 +1,17 @@
 .header {
+  padding: 32px 0px 32px 0px;
+
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
   &__nav {
+    display: flex;
+    align-items: center;
   }
 
   &__logo {
+    margin-right: 93px;
+
     font-size: 26px;
     font-weight: 700;
 
@@ -14,9 +23,13 @@
   }
 
   &__list {
+    display: flex;
   }
 
   &__item {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
 
   &__link {
@@ -27,7 +40,13 @@
   }
 }
 .contacts {
+  display: flex;
+
+  margin-left: auto;
   &__item {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
 
   &__link {
