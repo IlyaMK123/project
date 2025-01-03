@@ -1,7 +1,10 @@
 .hero {
   margin-bottom: 74px;
+  max-width: 1600px;
+
   text-align: center;
   background-color: $hero-background;
+  background-image: url(/img/overlay.jpg);
   &__btn {
     margin-bottom: 200px;
     padding: 10px 32px;

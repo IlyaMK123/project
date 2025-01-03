@@ -33,3 +33,47 @@
     color: $primary-text-color;
   }
 }
+// выффыв
+
+.q {
+  background-color: black;
+  margin: 0px auto;
+  margin-top: 50px;
+  width: 500px;
+  height: 200px;
+}
+.qwer {
+  display: inline-block;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  background-image: url(/img/phone.jpg);
+  background-size: cover;
+}
+.bbttnn {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 10px;
+  border-radius: 4px;
+
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: tomato;
+    color: aqua;
+    &::before {
+      background-color: yellow;
+    }
+  }
+  &::before {
+    content: "";
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+  }
+}

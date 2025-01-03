@@ -8,6 +8,31 @@
     &:not(:last-child) {
       margin-right: 30px;
     }
+    &::before {
+      content: "";
+      display: block;
+      margin-bottom: 30px;
+      height: 120px;
+      border-radius: 4px;
+      background-color: $benefits-back;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &:nth-child(1)::before {
+      background-image: url(/img/svg/antenna.svg);
+    }
+    &:nth-child(2)::before {
+      background-image: url(/img/svg/clock.svg);
+    }
+    &:nth-child(3)::before {
+      background-image: url(/img/svg/diagram.svg);
+    }
+    &:nth-child(4)::before {
+      background-image: url(/img/svg/cosmo.svg);
+    }
+    &:hover::before {
+      background-color: $logo-hover-color;
+    }
   }
 
   &__text {
@@ -17,3 +42,30 @@
 .h2 {
   font-weight: 500;
 }
+
+// benefits-training
+
+// &:nth-child(1)::before {
+//   background-image: url(/img/svg/antenna.svg);
+// }
+// &:nth-child(2)::before {
+//   background-image: url(/img/svg/clock.svg);
+// }
+// &:nth-child(3)::before {
+//   background-image: url(/img/svg/diagram.svg);
+// }
+// &:nth-child(4)::before {
+//   background-image: url(/img/svg/cosmo.svg);
+// }
+// .anten-icon::before {
+//   background-image: url(/img/svg/antenna.svg);
+// }
+// .clock-icon::before {
+//   background-image: url(/img/svg/clock.svg);
+// }
+// .diagram-icon::before {
+//   background-image: url(/img/svg/diagram.svg);
+// }
+// .cosmo-icon::before {
+//   background-image: url(/img/svg/cosmo.svg);
+// }
